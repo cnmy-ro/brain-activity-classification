@@ -1,0 +1,5 @@
+# MEG Data files (4.1G)
+Data/
+
+# Py-cache
+__pycache__
