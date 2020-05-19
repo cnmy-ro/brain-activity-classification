@@ -1,0 +1,31 @@
+OBJECTIVES:
+
+1. Perform 2 separate classification tasks: Intra-subject, Cross-subject
+2. Tune hyper-parameters of model architecture (layers,units,etc.) for both
+3. Effect of batch-norm and dropout for both
+4. Effect of learning rate and weight initialization
+5. Training and test accuracies too different? Why? Try another type of model to improve this
+
+
+--------------------------------------------------------
+
+TODOs:
+
+- Setup data pipeline
+- Create a CNN baseline. 
+- Experiment 1: Architecture - layers and kernel sizes
+- Experiment 2: Baseline vs. w/ batch-norm; 
+			    Baseline vs. w/ dropout
+- Experiment 3: Learning rate
+- Experiment 4:	weight initialization
+- Final training of the best model. 
+- Introduce LSTM model for better accuracy
+
+
+--------------------------------------------------------
+
+TOOLS:
+
+- Dataset stuff: TF
+- Classification metrics: sklearn
+- Visualization: Tensorboard

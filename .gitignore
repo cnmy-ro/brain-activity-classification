@@ -1,5 +1,6 @@
 # MEG Data files (4.1G)
-Data/
+Data
 
-# Py-cache
+# Py-cache and notebook checkpoints
 __pycache__
+.ipynb_checkpoints

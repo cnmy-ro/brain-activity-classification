@@ -6,7 +6,7 @@ def get_dataset_name(file_name_with_dir):
     dataset_name = "_".join(temp)
     return dataset_name
 
-filename_path="Intra/train/rest_105923_1.h5"
+filename_path="Data/Intra/train/rest_105923_1.h5"
 with h5py.File(filename_path,'r') as f:
     dataset_name = get_dataset_name(filename_path)
     matrix = f.get(dataset_name)[()]
