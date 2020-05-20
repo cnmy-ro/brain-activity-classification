@@ -12,7 +12,7 @@ OBJECTIVES:
 TODOs:
 
 - Setup data pipeline
-- Create a CNN baseline. 
+- Create CNN baselines - one for intra and one for cross. 
 - Experiment 1: Architecture - layers and kernel sizes
 - Experiment 2: Baseline vs. w/ batch-norm; 
 			    Baseline vs. w/ dropout
@@ -26,6 +26,6 @@ TODOs:
 
 TOOLS:
 
-- Dataset stuff: TF
+- Dataset stuff: tf.data
 - Classification metrics: sklearn
 - Visualization: Tensorboard
