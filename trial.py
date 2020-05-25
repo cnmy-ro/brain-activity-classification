@@ -1,5 +1,7 @@
-def data_generator(chunk_id):
-    data_X = []
-    data_Y = []
+import numpy as np
 
-    while True:
+for i in range(3):
+	for j in range(5):
+		np.random.seed(j)
+		print(np.random.random(), '  ', end='')
+	print("\n")
