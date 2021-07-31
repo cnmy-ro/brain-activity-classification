@@ -1,7 +1,11 @@
-# brain-activity
-Determining brain-activity of individual subjects using MEG signal data
+# Brain Activity Classification
 
-## Useful links
+Final assignemnt for the course Deep Learning (2019-2020-500-KEN4257) at Maastricht University.
 
-- MEG Data [drive link](https://drive.google.com/file/d/1G_Exgw9WXI6swzGQEyzueOQvB_01mUJt/view)
+Determining brain-activity of individual subjects using Magnetoencephalography (MEG) signal data. Time series analysis was performed by training and validating 1D CNNs on multichannel MEG recordings.
 
+Four activity classes were given:
+1. Resting
+2. Math and story (Mental claculation and language processing)
+3. Working memory (Memoraization)
+4. Motor task
